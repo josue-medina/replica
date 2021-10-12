@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="224dp"
+            android:layout_toEndOf="@+id/BTN7"
+            android:text="100" />
+
+        <Button
+            android:id="@+id/BTN2"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="223dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:text="+110" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="112dp"
+            android:layout_height="62dp"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="32dp"
+            android:text="ATLAS - TIJUANA  20 OCT 19:00" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="127dp"
+            android:layout_toEndOf="@+id/BTN7"
+            android:text="+245" />
+
+        <Button
+            android:id="@+id/BTN"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="127dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:text="+145" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="112dp"
+            android:layout_height="62dp"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop="33dp"
+            android:text="CHIVAS - TIGRES  21 OCT 17:00" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Acceder" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="141dp"
+            android:layout_height="47dp"
+            android:layout_centerHorizontal="true"
+            android:text="PONY APUESTAS :V" />
+
+        //PARTE DE LOS DEPORTES
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn1"
+            android:layout_alignParentLeft="true"
+            android:text="futbol" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/btn3"
+            android:text="tenis" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="203dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/btn4"
+            android:text="Americano" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/btn5"
+            android:text="beis" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="11dp"
+            android:layout_marginEnd="0dp"
+            android:background="#8C8C8C"
+            android:text="futbol" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="0dp"
+            android:background="#DF1E1E"
+            android:text="                                            MÉXICO - LIGA MX" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="-1dp"
+            android:background="#C62424"
+            android:text="PARTIDOS" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="112dp"
+            android:layout_height="62dp"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="33dp"
+            android:text=" MORELIA - LEON 20 OCT 17:00" />
+
+        <Button
+            android:id="@+id/BTN7"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="33dp"
+            android:layout_toEndOf="@+id/textView7"
+            android:text="+145" />
+
+        <Button
+            android:id="@+id/BTN8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="33dp"
+            android:layout_toEndOf="@+id/BTN7"
+            android:text="+245" />
+
+        <Button
+            android:id="@+id/BTN9"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="33dp"
+            android:layout_toEndOf="@+id/BTN8"
+            android:text="+90" />
+
+        <Button
+            android:id="@+id/BTN10"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="127dp"
+            android:layout_toEndOf="@+id/BTN8"
+            android:text="+120" />
+
+        <Button
+            android:id="@+id/BTN3"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="224dp"
+            android:layout_toEndOf="@+id/BTN8"
+            android:text="+120" />
+
+
+    </RelativeLayout>
+    //SECCION DE DEPORTES
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
